@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .top {
+        /* 在父元素添加 overflow: hidden; 清除浮动 */
+        overflow: hidden;
+        width: 100%;
+
+        background-color: black;
+
+    }
+
+    .top div {
+        height: 200px;
+        width: 200px;
+        float: left;
+        background-color: wheat;
+    }
+
+    .footer {
+        height: 50px;
+        background-color: red;
+    }
+
+    /* 额外标签法清除浮动，使用任意块级元素 */
+    /* .clear {
+        clear: both;
+    } */
+</style>
+
+<body>
+    <div class="top">
+        <div class="a">1</div>
+        <div class="b">2</div>
+        <div class="c">3</div>
+        <!-- 额外标签法清除浮动，使用任意块级元素 -->
+        <h1 class="clear"></h1>
+
+    </div>
+    <div class="footer">hahha </div>
+</body>
+
+</html>

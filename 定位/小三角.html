@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .sanjiao {
+        position: absolute;
+        top: -20px;
+        left: 180px;
+        /* 设置大小长宽0 边框透明 在设置某一边边框颜色 小三角出现 */
+        height: 0;
+        width: 0;
+        /* 以下2行代码 兼容性设置 */
+        line-height: 0;
+        font-size: 0;
+        border: 10px solid transparent;
+        border-bottom-color: turquoise;
+
+    }
+
+    .box {
+        position: relative;
+        width: 200px;
+        height: 300px;
+        background-color: turquoise;
+        margin: 30px auto;
+
+    }
+
+    .leftsanjiao {
+        position: absolute;
+        bottom: 0px;
+        right: -20px;
+        height: 0;
+        width: 0;
+        line-height: 0;
+        font-size: 0;
+        border: 10px solid transparent;
+        border-left-color: turquoise;
+    }
+</style>
+
+<body>
+    <div class="box">
+
+        <div class="sanjiao"></div>
+        <div class="leftsanjiao"></div>
+
+    </div>
+</body>
+
+</html>

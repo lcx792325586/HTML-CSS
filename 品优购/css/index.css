@@ -1,0 +1,72 @@
+.main{
+    width: 1200px;
+    height: 500px;
+    background-color: bisque;
+
+
+}
+.banner{
+
+float: right;
+margin-right: 5px;
+    width: 722px;
+    height: 456px;
+    background-color: blue;
+    /* margin-left: 100px; */
+}
+.kuaibao{
+
+   float: right;
+    width: 251px;
+    height: 456px;
+    background-color: blue;
+    
+    
+    
+
+}
+.news{
+    height: 166px;
+    
+    border-bottom: 1px solid #ccc;
+
+}
+.news dt{
+  
+    height: 32px;
+    width: 251px;
+    border: 1px solid #ccc;
+    line-height: 32px;
+    font-size: 16px;
+    font-weight: 700;
+    
+
+}
+.news dt span a{
+
+    font-size: 14px;
+    margin-left: 115px;
+
+}
+.news dl{
+    font-size: 12px;
+    color: #666666;
+    margin-top: 8px;
+}
+.smallphoto{
+
+    background-color: aquamarine;
+
+}
+.smallphoto .p{
+    float: left;
+    width: 60px;
+    height: 70px;
+    background-color: blanchedalmond;
+    border: 1px solid #666666;
+}
+.banner img{
+
+
+    margin-top: -1px;
+}

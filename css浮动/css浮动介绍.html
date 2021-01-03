@@ -1,0 +1,42 @@
+<!-- 网页布局：3种：
+普通流（标准流）、浮动、定位
+普通流：按标签的默认排列方式 块内元素、行内元素。行内块元素
+块内元素（div hr h1~h6 ul ol dl from table）独占一行，从上到下。     行内元素(span a i em)：从左到右依次排列。
+浮动：改变标签的排列方式（让块内元素放在同一行） -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .box1 {
+            width: 300px;
+            height: 200px;
+            background-color: red;
+
+
+            float: left;
+        }
+
+        .box2 {
+            width: 400px;
+            height: 300px;
+            background-color: green;
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1">浮动盒子</div>
+    <div class="box2">标准流盒子</div>
+</body>
+
+</html>

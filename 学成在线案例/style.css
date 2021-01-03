@@ -1,0 +1,278 @@
+* {
+    margin: 0;  
+    padding: 0;
+}
+.w {
+    width: 1200px;
+    margin: 0 auto ;
+}
+body{
+
+    background-color:#f3f5f7;
+}
+
+.header{
+    
+    height: 50px;
+    margin: 29px auto;
+   
+    background-color: #f3f5f7;
+    
+    
+ 
+
+}
+.logo{
+    float: left;
+    width: 197px;
+    height: 48px;
+   
+}
+li{
+    list-style: none;
+}
+a{  
+    text-decoration: none;
+}
+
+.nav li a{
+    float: left;
+    height: 42px;
+    padding: 0 20px;
+    font-size: 18px;
+    color:black
+    
+}
+.nav {
+    float: left;
+    width: 412px;
+    height: 22px;
+   margin-top: 11px;
+   margin-left:30px;
+   
+   
+}
+.nav li a:hover{
+    
+    
+    height: 22px;
+    color: white;
+    background-color:black;
+    border-radius: 10px;
+    border-bottom: 2px solid blue;
+
+}
+
+.search{
+    float: left;
+    margin-top: 1px;
+    width: 360px;
+    height: 42px;
+    
+    
+
+}
+.input{
+    float: left;
+    padding-left: 20px;
+    width: 287px;
+    height: 43px;
+    border: 3px solid skyblue;
+    border-right: 0;
+    font-size: 14px;
+    color: #c6c7c7;
+
+ }
+ .search button{
+     float: left;
+    padding-top: 5px;
+     width: 50px;
+     height: 50px;
+    
+    background: url(images/fa-search.png);
+    
+    border: 0;
+    
+ }
+ .user{
+    float: left;
+    margin-top: 10px;
+    margin-left: 31px;
+    width: 117px;
+    height: 30px;
+    background: url(images/20130502185029_EkKYh拷贝.png);
+} 
+.box1{
+
+    width: 1920px;
+    height: 420px;
+} 
+.left{
+    float: left;
+    width: 360px;
+    height: 420px;
+    background-color: #1c036c;
+}
+.banner{
+
+    float: left;
+    width: 1200px;
+    height: 420px;
+    background: url(images/banner2.jpg) no-repeat top center;
+    /* 背景图片不重复。靠顶居中 */
+   
+}
+.banner ul{
+    float: left;
+    height: 420px;
+    background-color: #13014b;
+}
+.banner ul li {
+    margin-top: 25px;
+    margin-left: 20px;
+    width: 190px;
+    height: 20px;
+    
+    color: white;
+    
+}
+.box1 .banner ul li a{
+    color: white;
+    font-size: 14px;
+}
+.box1 .banner ul li a:hover{
+    color: blue;
+   
+}
+
+
+.box1 .banner  ul li span{
+
+    float: right;
+    margin-right: 20px;
+}
+.banner .bannerright{
+    float:right;
+    margin-top: 50px;
+    width: 230px;
+    height: 300px;
+    background:url(images/lesson.png) no-repeat;
+}
+.right{
+    float: left;
+    width: 360px;
+    height: 420px;
+    background-color: #1c036c;
+}
+.navtwo {
+    
+    width: 1200px;
+    margin: 8px 360px 0 360px ;
+    height: 60px;
+    background-color:white;
+}
+.navtwo ul li{
+  
+    float: left;
+    padding-left: 0px;
+    margin-top: 20px;
+
+}
+.navtwo ul li a{
+    padding-right: 25px;
+    font-size: 16px;
+    color: black
+}
+.navtwo ul li a:hover{
+    color: #6bbfff;
+   
+}
+.navtwo ul .firstli {
+    padding-left: 33px;
+}
+.navtwo ul .lastli {
+    float: right;
+    
+}
+.navtwo ul .lastli a{
+    font-size: 14px;
+   color: #6bbfff;
+}
+.navtwo ul li span{
+    float: right;
+    margin-right: 20px;
+   padding-left: 0px;
+}
+.tuijian{
+    margin: 35px 360px 20px 360px;
+    width: 1200px;
+    height: 23px;
+    
+}
+.tuijian  .a{
+
+    float: left;
+    font-size: 20px;
+    color: #686969;
+}
+.tuijian  .b{
+
+    float: right;
+    color: #bcbcbd;
+    font-style: 12px;
+}
+.jinping{
+
+     margin: 0px 360px 36px 360px;
+     width: 1200px;
+     height: 558px;
+     
+}
+.jinping ul .li1{
+    position: relative;
+
+}
+.jinping ul li .li1 em img{
+     position: absolute;
+     top: 4px;
+     right: -4px;
+
+}
+.jinping ul li{
+    float: left;
+    margin-right:8px;
+    margin-bottom: 15px;
+    width: 233px;
+    height: 271px;
+    background-color: #ffffff;
+
+}
+.jinping ul .li5{
+
+    margin-right:0px;
+
+}
+.jinping ul .li10{
+
+    margin-right:0px;
+
+}
+.jinping h6{
+    margin: 24px 0 18px 25px;
+    
+    
+    font-size: 14px;
+
+}
+.jinping .li1 .h6_follow .l1{
+    margin-left:25px ;
+    font-size: 14px;
+    color: #ff7c2d;
+  
+}
+.jinping .li1 .h6_follow .l2{
+    
+    font-size: 14px;
+    color: #dadada;
+  
+}

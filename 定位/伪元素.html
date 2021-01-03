@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 字体图标初始化 .css文件中复制下来 */
+        @font-face {
+            font-family: 'icomoon';
+            src: url('fonts/icomoon.eot?wxg7v7');
+            src: url('fonts/icomoon.eot?wxg7v7#iefix') format('embedded-opentype'),
+                url('fonts/icomoon.ttf?wxg7v7') format('truetype'),
+                url('fonts/icomoon.woff?wxg7v7') format('woff'),
+                url('fonts/icomoon.svg?wxg7v7#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+            font-display: block;
+        }
+
+        div {
+            position: relative;
+            width: 200px;
+            height: 20px;
+            border: 1px solid rebeccapurple;
+            margin: 0 auto;
+
+        }
+
+        div::after {
+            position: absolute;
+            top: 2px;
+            right: 3px;
+            font-family: 'icomoon';
+            /* 伪元素必须加content属性 要显示的内容 */
+            content: '';
+
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+</body>
+
+</html>

@@ -1,0 +1,329 @@
+section{
+    height: 31px;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+.w {
+    width: 1200px;
+    margin: 0 auto;
+   
+
+}
+   /* <!-- 快捷导航模块 左--> */
+.shortcut {
+    float: left;
+    line-height: 31px;
+    width: 1200px;
+    height: 31px;
+    
+}
+section .shortcut span:first-child,section .shortcut span a:fisrt-child{
+     font-size: 12px;
+     color: #666666;
+}
+section .shortcut span a:nth-of-type(1){
+     font-size: 12px;
+     color: red;
+}
+section .shortcut span{
+
+    margin-right: 14px;
+}
+ /* <!-- 快捷导航模块 右--> */
+ .right{
+    float: right;
+    width: 642px;
+    height: 31px;
+    
+
+ }
+ .w .right ul li{
+     float: left;
+     
+
+ }
+  .w .right ul li:nth-child(even){
+
+    width: 0;
+    height: 12px;
+    border: 1px solid #666666;
+    margin: 9px 15px;
+  }
+ .w .right ul .arrow-icon::after{
+     content: '';
+      font-family: 'icomoon';
+      margin-left: 3px;
+
+
+ }
+  
+ /* header logo*/
+ header{
+    position: relative;
+    height: 106px;
+    
+   
+ }
+ header img{
+     position: absolute;
+     top: 27px;
+ }
+  /* header search*/
+ header .sousuo{
+     position: absolute;
+     top:27px;
+     left: 348px;
+     width: 540px;
+    height: 34px;
+     
+    background-color: royalblue;
+ }
+ header .sousuo input{
+    float: left;
+    width: 455px;
+    height: 100%;
+    border: 1px solid red;
+    border-right:none ;
+    background-color: white;
+ }
+  header .sousuo button{
+       float: left;
+      
+       width: 85px;
+       height: 35px;
+       background-color: red;
+       line-height: 35px;
+       text-align: center;
+       font-size: 16px;
+       border: 1px solid red;
+
+  }
+  /* hotword */
+  header ul{
+      position: absolute;
+      top:60px;
+      left: 348px;
+      width: 538px;
+    height: 21px;
+    
+      
+
+    }
+      header ul  li{
+          float: left;
+          padding-left: 15px;
+      }
+  header ul .first a{
+      color: red;
+  }
+  /* shopcar */
+    header .shopcar{
+            position: absolute;
+            top:27px;
+            right: 65px;
+            width: 140px;
+            height: 34px;
+            background-color: #f7f7f7;
+            border: 1px solid  #f7f7f7;
+            line-height: 34px;
+            text-align: center;
+
+    }
+     header .shopcar span{
+         font-size: 12px;
+     color: #666666;
+     }
+     header .shopcar span::before{
+
+        content: '';
+       color: red;
+       margin-right: 15px;
+        font-family: 'icomoon';
+        font-size: 12px;
+
+      }
+      header .shopcar span::after{
+
+        content: '';
+        margin-left: 15px;
+        font-family: 'icomoon';
+        font-size: 12px;
+
+      }
+       header .shopcar .count{
+            position: absolute;
+            top:-5px;
+            /* right: 35px; */
+            left: 105px;
+            height: 14px;
+            line-height: 14px;
+            background-color: red;
+            padding: 0 5px;
+            border-radius: 7px 7px 7px 0px;
+
+       }
+	   /* 导航栏nav */
+	   .dropdown{
+		   height: 46px;
+		   border-bottom: 2px solid #b1191a;
+	   }
+	   .nav {
+		   margin: 0 auto;
+		   width: 1200px;
+		   font-size: 16px;
+		   line-height: 46px;
+		   text-align: center;
+		    
+	   } 
+	   .nav .dd{
+           display: none;
+		   float: left;
+		   width: 208px;
+		   height: 46px;
+		  
+		   background-color: #b1191a;
+		   
+		   
+		   
+	   } 
+	  .nav .dd .dl a{
+		  
+		  color: white;
+	  }
+	  .nav .navitems ul li{
+		   
+		   float: left;	
+		   padding-left: 45px;
+	   }
+	  .nav .dt {
+		  background-color: #c81623;
+	  }
+	   .nav .dt ul li{
+		   text-align: left;
+		   padding-left: 2px;
+		   height: 31px;
+		   margin-top: 2px;
+		   line-height: 25px;
+		   
+	   }
+	    .nav .dt ul li a:hover{
+			display: block;
+			color: #c81623;
+			 height: 22px;
+			 line-height: 22px;
+			background-color: white;
+			
+		}
+	    .nav .dt ul li a{
+			position: relative;
+			font-size: 14px;
+			color: white;
+			
+			
+		}
+		  .nav .dt ul li a::after{
+			  position: absolute;
+			  top:-1px;
+			
+			  left:180px;
+			  content: '\e920';
+			  font-family: 'icomoon';
+			  font-size: 20px;
+          }
+	/* 	  底部模块 */
+          .footer{
+              margin-top: 100px;
+            height: 419px;
+            width: 100%;    
+           
+
+          }
+          .footer .box{
+            height: 339px;
+            
+
+
+          }
+          .footer .box .zp{
+              
+              height: 110px;
+              
+              background-color: azure;
+              border-bottom: 2px solid red;
+             
+
+
+          }
+          .footer .box .zp li{
+              float: left;
+              width: 190px;
+              margin: 0 25px;
+              margin-top: 30px;
+              line-height: 23px;
+              
+             
+                          
+              
+              
+          }
+           .footer .box .zp h5{
+            float:left;
+            height: 52px;
+            width: 52px;
+            background-color: rosybrown;
+			background: url(../images/icons.png) no-repeat -250px 0px;
+            margin-right: 5px;
+
+           }
+            .footer .box .zp p{
+                font-size: 14px;
+
+               
+            } 
+             .footer .box .zp h4{
+                font-size: 16px;
+               
+            } 
+            .gouwu{
+                height: 189px;
+               margin-top: 20px;
+                padding-left: 20px;
+				border-bottom-color: #ccc;
+				border-bottom-style: solid;
+				border-bottom-width: 1px;
+            }
+            .gouwu dl{
+				 margin-top: 15px;
+                float: left;
+                
+            }
+                
+           .gouwu dt{
+               font-size: 16px;
+               font-weight: 700;
+               padding-bottom: 5px;
+
+
+           }
+           .gouwu .second,.gouwu .third,.gouwu .forth {
+               margin-left: 123px;
+
+           }
+           .gouwu .last img{
+               
+                height: 92px;
+                width: 92px;
+                margin-left: -12px;
+                background-color: salmon;
+               
+           }
+		   
+		   .footerlinks {
+			   text-align: center;
+			   padding-left: 5px;
+		   }
+		   
+		   .fotercopyright{
+			   text-align: center;
+			   
+		   }

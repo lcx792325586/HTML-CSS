@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/animate.js"></script>
+    <script src="./js/index.js"></script>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .taobaophoto {
+
+        position: relative;
+        left: 50%;
+        margin: 100px auto;
+        margin-left: -260px;
+        width: 520px;
+        height: 280px;
+        overflow: hidden;
+        background-color: aqua;
+
+
+    }
+
+
+    /* 并集选择器用，隔开 */
+    .prev,
+    .next {
+        position: absolute;
+        top: 50%;
+        width: 15px;
+        height: 30px;
+        background-color: rgba(0, 0, 0, .3);
+
+        line-height: 30px;
+
+
+    }
+
+    .prev {
+        display: none;
+        left: 0px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .next {
+        display: none;
+        right: 0px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+
+
+    .advnav ul {
+
+        position: absolute;
+        bottom: 5px;
+        left: 50%;
+        margin-left: -37px;
+        /* width: 77px; */
+        height: 12px;
+        /* background-color: rgba(255, 255, 255, .3); */
+        list-style: none;
+        border-radius: 10px;
+    }
+
+    .advnav ul li {
+        float: left;
+        width: 10px;
+        height: 9px;
+        margin: 2px;
+        margin-left: 5px;
+        background-color: rgba(255, 255, 255, .3);
+        border-radius: 50%;
+        line-height: 7px;
+
+    }
+
+    .taobaophoto>ul {
+        position: absolute;
+        width: 500%;
+
+    }
+
+    .taobaophoto ul li {
+        float: left;
+        list-style: none;
+
+    }
+
+    .advnav ul .current {
+
+        background-color: white;
+
+    }
+</style>
+
+<body>
+
+    <div class="taobaophoto">
+        <ul class='move'>
+            <li><a href="javascript:;"><img src="images/zjhy.png" alt=""></a></li>
+            <li><a href="javascript:;"><img src="images/xr.jpg" alt=""></a></li>
+            <li><a href="javascript:;"><img src="images/tb.jpg" alt=""></a></li>
+            <li><a href="javascript:;"><img src="images/tb.jpg" alt=""></a></li>
+            <!-- 克隆的第一张图 -->
+            <!-- <li><a href="javascript:;"><img src="images/zjhy.png" alt=""></a></li> -->
+        </ul>
+
+        <div class="prev">&lt;</div>
+        <div class="next"> &gt;</div>
+        <div class="advnav">
+            <ul class="auto">
+
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

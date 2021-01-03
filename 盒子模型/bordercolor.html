@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+
+</style>
+
+<body>
+    <button onclick=request()>tijiao</button>
+</body>
+
+</html>
+<script>
+    function request() {
+        var xhr = new XMLHttpRequest;
+        xhr.onreadystatechange = function () {
+            if (this.readyState == 0) {
+                console.log("UNSENT open 尚未调用");
+            } else if (this.readyState == 1) {
+                console.log("OPEND open 已调用");
+            } else if (this.readyState == 2) {
+                console.log("接收头消息");
+            } else if (this.readyState == 3) {
+                console.log("接收响应主体");
+            } else {
+                console.log(JSON.parse(this.responseText));
+            }
+        };
+        xhr.open('GET', "http://route.showapi.com/90-87?showapi_appid=45300&showapi_sign=c28de9d6f79e44369a9abcd40fa3e277");
+        xhr.send();
+    }
+</script>

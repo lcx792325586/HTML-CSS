@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>内联样式</title>
+		<style type="text/css">
+		span{
+			font-size: 19px;                 /* 内联样式属性设计     标签名{} 大括号里填标签的属性 */
+			border: #00FFFF;
+			color: aqua;                      /* 对所有的标签名都生效 */
+		    src: url(logo.png);
+		}
+		p{
+			font-size: 15px;
+			border: antiquewhite;
+			color: brown;
+		}
+		a{
+			color: chartreuse;
+		}
+		</style>
+	</head>
+	<body>
+		<span style="font-size: 40px;">测试便签span</span>
+			<span>测试便签span2</span>
+		<p title="鼠标移动这儿会显示">测试便签p</p>
+		<a>测试标签a</a>
+		
+	</body>
+</html>

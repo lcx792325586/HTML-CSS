@@ -1,0 +1,29 @@
+h1 { 
+    font-weight: 400;//不加粗 700 加粗 不带单位
+    text-align: center;
+}
+a {
+    font: 12px 'Microsoft Yahei';
+    text-decoration: none;
+}
+.info {
+    text-align: center;
+    font: 12px 'Microsoft YaHei';
+    color: grey;
+    }
+.search {
+    font: 12px 'Microsoft YaHei';
+    font-weight:700;
+}
+.pic {
+    text-align: center;
+ 
+}
+p {
+    text-indent: 2em;//2em缩进2个汉字宽度
+}
+footer {
+    text-align: left;
+    font: 12px 'Microsoft YaHei';
+    color: grey;
+}
